@@ -276,3 +276,29 @@ footer nav a {
     margin: 10px 10px 20px 20px;
     padding: 10px;
 }
+
+
+
+
+
+
+@media screen and (max-width: 700px) {
+	.container, .about, .about-main {
+	  display: flex;
+      flex-flow: column wrap;
+      align-items: center;
+    }
+    
+    body {
+        align: center;
+    }
+
+.top-content, .bottom-content, .about, .together, .container nav, .wide-image, .container footer {
+    width: 600px;
+    text-align: center;
+    align: center;
+}
+
+}
+
+  }
