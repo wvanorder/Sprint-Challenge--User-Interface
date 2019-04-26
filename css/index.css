@@ -315,7 +315,7 @@ footer nav a {
         align: center;
     }
 
-.top-content, .bottom-content, .about, .together, .container nav, .wide-image, .container footer {
+.top-content, .top-content-contact, .bottom-content, .about, .together, .container nav, .wide-image, .container footer {
     width: 600px;
     text-align: center;
     align: center;
