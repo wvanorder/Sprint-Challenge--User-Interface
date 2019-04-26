@@ -199,6 +199,18 @@ header nav a:hover {
     background-color: dodgerblue;
 }
 
+#box11 {
+    background-color: #036A50;
+}
+
+#box12 {
+    background-color: #E57939;
+}
+
+#box13 {
+    background-color: #206A00;
+}
+
 
 .bottom-content {
     display: flex;
@@ -312,7 +324,37 @@ footer nav a {
 }
 
 
+/*Contact info page */
+
+.middle-content-contact {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.middle-content-contact h2 {
+    padding: 0 2%;
+    margin-bottom: 0;
+}
+
+.middle-content-contact .boxes-contact {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column nowrap;
+}
+
+.middle-content-contact .boxes-contact .box {
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 
-
-
+#box13 a {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
