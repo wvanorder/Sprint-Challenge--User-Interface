@@ -74,7 +74,7 @@ p {
 header {
     overflow: hidden;
     position: fixed;
-    top: 10;
+    top: 0;
     width: 800px;
     background-color: white;
 }
@@ -91,6 +91,11 @@ header nav a {
     font-family: 'Rubik', sans-serif;
     font-size: 14px;
     color: black;
+}
+
+header nav a:hover {
+    transition-duration: 0.4s;
+    color: darkorchid;
 }
 
 .wide-image {
@@ -216,4 +221,49 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+.about {
+    margin: 0px 0px 20px 0px;
+    border-bottom: 1px dashed black;
+}
+
+.about p {
+    margin-bottom: 20px;
+}
+
+.about-main {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.information-box {
+    width:47%;
+    height: 400px;
+    border-bottom: 1px dashed black;
+    margin: 10px 0px 30px 0px;
+}
+
+.information-box h2 {
+    margin-top: 12px;
+}
+
+.information-box button {
+    display: block;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    margin: 24px 0px 18px 0px;
+    width: 30%;
+    height: 8%;
+    border-radius: 6px;
+    border: 2px solid darkgray
+}
+
+.information-box button:hover {
+    transition-duration: 0.3s;
+    background-color: #bb1432;
+    color: white;
 }
